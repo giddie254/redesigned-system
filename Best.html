@@ -10,7 +10,7 @@
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
-    />
+    />     
   </head>
   <body>
     <!-- Navbar Section -->
@@ -55,7 +55,7 @@
         <div class="content">
           <div class="img"><img src="#" alt=""></div>
           <div class="details">
-            <span class="name">html</span>
+            <span class="name">html and css</span>
             <p></p>
           </div>
         </div>
@@ -65,17 +65,17 @@
         <div class="content">
           <div class="img"><img src="#" alt=""></div>
           <div class="details">
-            <span class="name">css</span>
+            <span class="name">Java script</span>
             <p></p>
           </div>
         </div>
         <a href="#"></a>
-      </div>
+    </div>
       <div class="card" style="--delay:2;">
         <div class="content">
           <div class="img"><img src="#" alt=""></div>
           <div class="details">
-            <span class="name">java script</span>
+            <span class="name">php</span>
             <p></p>
           </div>
         </div>
@@ -158,31 +158,40 @@
         <div class="main__content">
           <h1>Request our services</h1>
           <h2>Sign Up Today</h2>
-           <p>See what makes us different</p>
-           <section class="contact">
-        <div class="contact-wrapper">
-          <div class="contact-left"></div>
-          <div class="contact-right">
-            <h1 class="contact-heading">Contact</h1>
-            <form>
-              <div class="input-group">
-                <input type="text" class="field" />
-                <label class="input-label">Full Name</label>
-              </div>
-              <div class="input-group">
-                <input type="email" class="field" />
-                <label class="input-label">Email</label>
-              </div>
-              <div class="input-group">
-                <textarea class="field"></textarea>
-                <label class="message">Message</label>
-              </div>
-              <input type="submit" class="submit-btn" value="Submit" />
-            </form>
-          </div>
-        </div>
-      </section>
-        </div>
+           <p></p>
+          <br>
+
+      <section>
+    <form action="https://formspree.io/f/xaylzyqq" method="POST" id="my-form">
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Message</label>
+        <textarea name="massage" id="massage"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+
+
+    
+    
         <div class="main__img--container">
           <div class="main__img--card" id="card-2">
             <i class="fas fa-users"></i>
@@ -233,3 +242,4 @@
     <script src="app.js"></script>
   </body>
 </html>
+
